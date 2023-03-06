@@ -1,10 +1,10 @@
-interface IOperators {
+export interface IOperators {
   type: string;
   id: string;
   value: string;
 }
 
-export const operators: Array<IOperators> = [
+export const operatorsList: Array<IOperators> = [
   {
     type: "operator",
     id: "divide",
