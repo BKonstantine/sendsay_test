@@ -12,6 +12,7 @@
     "@reduxjs/toolkit": "^1.9.3",
     "@types/react-redux": "^7.1.25",
     "framer-motion": "^10.1.0",
+    "nanoid": "^4.0.1",
     "react": "^18.2.0",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
