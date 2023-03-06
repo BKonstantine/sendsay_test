@@ -6,8 +6,8 @@ import Builder from "../builder/builder";
 const CalculatorConstructor: FC = () => {
   return (
     <div className={style.container}>
-      <Canvas />
       <Builder />
+      <Canvas />
     </div>
   );
 };
