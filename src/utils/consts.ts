@@ -1,17 +1,7 @@
 interface IOperators {
   type: string;
   id: string;
-  value: string;
-}
-
-interface INumbers {
-  type: string;
-  value: number;
-}
-
-interface IPoint {
-  type: string;
-  value: string;
+  value: string | number;
 }
 
 export const operators: Array<IOperators> = [
@@ -42,52 +32,63 @@ export const operators: Array<IOperators> = [
   },
 ];
 
-export const numbers: Array<INumbers> = [
+export const numbers: Array<IOperators> = [
   {
     type: "num",
-    value: 7,
+    id: "seven",
+    value: "7",
   },
   {
     type: "num",
-    value: 8,
+    id: "eight",
+    value: "8",
   },
   {
     type: "num",
-    value: 9,
+    id: "nine",
+    value: "9",
   },
   {
     type: "num",
-    value: 4,
+    id: "four",
+    value: "4",
   },
   {
     type: "num",
-    value: 5,
+    id: "five",
+    value: "5",
   },
   {
     type: "num",
-    value: 6,
+    id: "six",
+    value: "6",
   },
   {
     type: "num",
-    value: 1,
+    id: "one",
+    value: "1",
   },
   {
     type: "num",
-    value: 2,
+    id: "two",
+    value: "2",
   },
   {
     type: "num",
+    id: "three",
     value: 3,
   },
   {
     type: "num",
-    value: 0,
+    id: "divide",
+    value: "0",
   },
 ];
 
-export const point: Array<IPoint> = [
+export const point: Array<IOperators> = [
   {
     type: "decimal",
+    id: "decimal",
     value: ",",
   },
 ];
