@@ -32,7 +32,7 @@ export const operatorsList: Array<IOperators> = [
   },
 ];
 
-export const numbers: Array<IOperators> = [
+export const numberList: Array<IOperators> = [
   {
     type: "num",
     id: "seven",

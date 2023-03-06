@@ -8,12 +8,14 @@
 
 .body {
   font-family: "Inter", sans-serif;
+  background-color: rgb(186, 190, 190);
 }
 
 :root {
   --min-padding: 4px;
   --max-padding: 8px;
 
+  --color-white: #ffffff;
   --color-ligth-grey: #f3f4f6;
 
   --display-text-color: #111827;

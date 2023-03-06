@@ -9,7 +9,7 @@ interface IOperatorsBlock {
 
 const OperatorsBlock: FC<IOperatorsBlock> = memo(({ operators }) => {
   return (
-    <div className={style.operators}>
+    <div className={style.operator}>
       {operators.map((operator) => {
         if (operator.id !== "equals") {
           return (
