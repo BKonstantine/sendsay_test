@@ -9,3 +9,12 @@
 .body {
   font-family: "Inter", sans-serif;
 }
+
+:root {
+  --min-padding: 4px;
+  --max-padding: 8px;
+
+  --color-ligth-grey: #f3f4f6;
+
+  --display-text-color: #111827;
+}
