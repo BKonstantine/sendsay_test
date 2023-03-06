@@ -1,7 +1,7 @@
 interface IOperators {
   type: string;
   id: string;
-  value: string | number;
+  value: string;
 }
 
 export const operators: Array<IOperators> = [
@@ -76,7 +76,7 @@ export const numbers: Array<IOperators> = [
   {
     type: "num",
     id: "three",
-    value: 3,
+    value: "3",
   },
   {
     type: "num",
