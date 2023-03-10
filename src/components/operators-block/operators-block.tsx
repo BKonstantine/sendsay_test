@@ -1,5 +1,5 @@
 import { FC, memo } from "react";
-import { nanoid } from "nanoid";
+import { nanoid } from "@reduxjs/toolkit";
 import style from "./operators-block.module.css";
 import Button from "../button/button";
 import { IOperators } from "../../utils/consts";

@@ -1,4 +1,5 @@
 import { FC, memo } from "react";
+import { nanoid } from "@reduxjs/toolkit";
 import style from "./num-block.module.css";
 import Button from "../button/button";
 import { IOperators } from "../../utils/consts";
@@ -12,7 +13,7 @@ const NumBlock: FC<INumBlock> = memo(({ numbers }) => {
       <div className={style.num}>
         {numbers.map((number) => {
           return (
-            <Button id={number.id} value={number.value}>
+            <Button key={nanoid()} id={number.id} value={number.value}>
               {number.value}
             </Button>
           );
