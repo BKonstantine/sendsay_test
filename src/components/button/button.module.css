@@ -1,0 +1,14 @@
+.button {
+  background: #ffffff;
+  border: 1px solid #e2e3e5;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;  
+}
+
+.button:active {
+  border-color: #5d5fef;
+}

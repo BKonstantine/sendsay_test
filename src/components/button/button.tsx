@@ -8,9 +8,15 @@ interface IButton {
   children: ReactNode;
 }
 
-const Button: FC<IButton> = ({ id, value, children }) => {
+const Button: FC<IButton> = ({ id, value, children }) => { 
   return (
-    <button type="button" id={id} value={value} className={style.button}>
+    <button
+      style={{ gridArea: id }}
+      type="button"
+      id={id}
+      value={value}
+      className={style.button}
+    >
       {children}
     </button>
   );

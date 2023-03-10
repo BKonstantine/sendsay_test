@@ -8,4 +8,5 @@
   background: #ffffff;
   box-shadow: var(--box-shadow);
   border-radius: 4px;
+  grid-template-areas: "divide multiply subtract add";  
 }
