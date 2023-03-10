@@ -10,12 +10,9 @@
 }
 
 .button_primary {
+  color: #000000;
   background: #ffffff;
   border: 1px solid #e2e3e5;
-}
-
-.button_primary:active {
-  border-color: #5d5fef;
 }
 
 .button_secondary {
@@ -24,6 +21,24 @@
   border: 1px solid #5d5fef;
 }
 
-.button_secondary:active {
+.button_primary:active {
+  border-color: #5d5fef;
+}
+
+.button_secondary:active {  
   border-color: #e2e3e5;
+}
+
+.button_primary:disabled {
+  color: #000000;
+  background: #ffffff;
+  border: 1px solid #e2e3e5;
+  cursor: auto;
+}
+
+.button_secondary:disabled {
+  color: #ffffff;
+  background: #5d5fef;
+  border: 1px solid #5d5fef;
+  cursor: auto;
 }

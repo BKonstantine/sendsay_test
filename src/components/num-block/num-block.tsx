@@ -13,7 +13,7 @@ const NumBlock: FC<INumBlock> = memo(({ numbers }) => {
       <div className={style.num}>
         {numbers.map((number) => {
           return (
-            <Button key={nanoid()} id={number.id} value={number.value}>
+            <Button key={nanoid()} id={number.id} value={number.value} disabled={true}>
               {number.value}
             </Button>
           );
