@@ -1,0 +1,7 @@
+.equals {
+  max-width: 240px;
+  padding: var(--min-padding);  
+  background: #ffffff;
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+}
