@@ -1,4 +1,5 @@
 import { FC, memo } from "react";
+import { nanoid } from "nanoid";
 import style from "./operators-block.module.css";
 import Button from "../button/button";
 import { IOperators } from "../../utils/consts";
@@ -9,11 +10,11 @@ interface IOperatorsBlock {
 
 const OperatorsBlock: FC<IOperatorsBlock> = memo(({ operators }) => {
   return (
-    <div className={style.operator}>
+    <div className={style.operators}>
       {operators.map((operator) => {
         if (operator.id !== "equals") {
           return (
-            <Button id={operator.id} value={operator.value}>
+            <Button key={nanoid()} id={operator.id} value={operator.value}>
               {operator.value}
             </Button>
           );

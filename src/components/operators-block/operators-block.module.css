@@ -1,0 +1,11 @@
+.operators {
+  max-width: 240px;
+  height: 56px;
+  padding: var(--min-padding);
+  display: grid;
+  column-gap: var(--max-padding);
+  grid-template-columns: repeat(4, 1fr);
+  background: #ffffff;
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+}
