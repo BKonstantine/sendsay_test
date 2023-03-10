@@ -1,15 +1,27 @@
 .button {
   height: 48px;
-  background: #ffffff;
-  border: 1px solid #e2e3e5;
   border-radius: 6px;
   cursor: pointer;
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
-  line-height: 15px;  
+  line-height: 15px;
 }
 
-.button:active {
+.button_primary {
+  background: #ffffff;
+  border: 1px solid #e2e3e5;
+}
+
+.button_primary:active {
   border-color: #5d5fef;
+}
+
+.button_secondary {
+  background: #5d5fef;
+  border: 1px solid #5d5fef;
+}
+
+.button_secondary:active {
+  border-color: #e2e3e5;
 }
