@@ -80,12 +80,9 @@ export const numberList: Array<IOperators> = [
   },
   {
     type: "num",
-    id: "divide",
+    id: "zero",
     value: "0",
   },
-];
-
-export const point: Array<IOperators> = [
   {
     type: "decimal",
     id: "decimal",

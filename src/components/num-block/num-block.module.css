@@ -1,0 +1,15 @@
+.num {
+  max-width: 240px;
+  padding: var(--min-padding);
+  display: grid;
+  gap: var(--max-padding);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "seven eight nine"
+    "four five six"
+    "one two three"
+    "zero zero decimal";
+  background: #ffffff;
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+}

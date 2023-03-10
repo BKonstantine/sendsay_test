@@ -1,6 +1,5 @@
 .operators {
-  max-width: 240px;
-  height: 56px;
+  max-width: 240px;  
   padding: var(--min-padding);
   display: grid;
   column-gap: var(--max-padding);
