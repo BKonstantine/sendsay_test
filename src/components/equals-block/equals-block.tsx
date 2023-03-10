@@ -14,7 +14,7 @@ const EqualsBlock: FC<IEqualsBlock> = memo(({ operators }) => {
       {operators.map((operator) => {
         if (operator.id === "equals") {
           return (
-            <Button key={nanoid()} id={operator.id} value={operator.value} disabled={true}>
+            <Button key={nanoid()} id={operator.id} value={operator.value} disabled={false}>
               {operator.value}
             </Button>
           );
